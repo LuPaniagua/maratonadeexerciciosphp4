@@ -9,10 +9,10 @@
     <?php
     
     function valorfinal ($preço, $desconto){
-        return $preço * $desconto;
+        return $preço - ($preço * $desconto);
     }
 
-        $valorfinal = valorfinal(5000, 0.5);
+        $valorfinal = valorfinal(5000, 40);
         echo "O valor final da sua compra é: " . $valorfinal;
     
 
