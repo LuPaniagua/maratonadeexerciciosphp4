@@ -11,6 +11,13 @@ for ($l = 8; $l <= 80; $l+=8){
    echo $l; echo "<br>";
 }
 
+$numero = 8;
+
+//Laço for para imprimir a tabuada de 8
+for ($i = 1; $i <= 10; $i++){
+    //Calcula e imprime o resultado
+    echo "$numero x $i = " . ($numero * $i) . "<br>";
+}
 
 
 
