@@ -12,8 +12,16 @@
     foreach($carro as $carros){
         echo $carros . "<br>";
     }
+    //Array com os nomes das peças de carro
+$pecasCarro = array[
+    "Motor", "Roda", "Pneu", "Freio", "Suspensão", "Bateria", "Radiador", "Alternador", "Filtro de ar", "Direção"];
 
-
+//Utilizando foeach para imprimir cada nome em uma lista
+echo "<ul>";
+foreach ($pecasCarro as $peca) {
+    echo "<li>" . $peca . "</li>";
+}
+echo "</ul>";
 
     ?>
 </body>
